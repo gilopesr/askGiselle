@@ -19,7 +19,7 @@ Ask Giselle é um projeto interativo desenvolvido para explorar e praticar conce
 
 <h3>Como Usar</h3>
   <ol>
-     <li>Acesse o site <a href=https://gilopesr.github.io/ask_giselle/>Ask Giselle</a></li>
+     <li>Acesse o site <a href=https://gilopesr.github.io/askGiselle/>Ask Giselle</a></li>
      <li>Digite duas opções nos campos disponíveis</li>
      <li>Clique no botão para obter uma decisão</li>
      <li>Repita quantas vezes desejar!</li>
