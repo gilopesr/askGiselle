@@ -1,0 +1,155 @@
+body {
+    background-color: #FFD1DC;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+input[type=text] {
+    background-color: #FFF;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    cursor: text;
+    max-width: 450px;
+    width: 80%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.btn {
+    background-color: #9c5858;
+    border: #9c5858;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px auto;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFD1DC;
+    font-weight: bold;
+    max-width: 450px;
+    width: 80%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.btn:hover{
+    background-color: #4d2929;
+}
+
+.giselle {
+    text-align: center;
+}
+
+.janela{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffd1dc3f;
+    backdrop-filter: blur(5px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    display: flex;
+    width: 35%;
+    min-width: 500px;
+    min-height: 200px;
+    background-color: #ffffff88;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #9e344d;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fechar{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #9e344d;
+    color: pink;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fechar:hover {
+    background-color: #581122;
+}
+.janela.abrir{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    input[type=text],
+    .btn {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .modal {
+        width: 90%;
+        min-width: auto;
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 16px;
+    }
+
+    .modal {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
