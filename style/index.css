@@ -9,11 +9,20 @@ body {
     position: relative;
 }
 
+
+.giselle img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
 .container {
     text-align: center;
     display: block;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;
     width: 80%;
     margin: 0 auto;
 }
@@ -32,8 +41,8 @@ input[type=text] {
     margin: 10px auto;
     font-size: 16px;
     cursor: text;
-    max-width: 450px;
-    width: 80%;
+    max-width: 400px;
+    width: 90%;
     box-sizing: border-box;
     display: block;
 }
@@ -48,8 +57,8 @@ input[type=text] {
     cursor: pointer;
     color: #FFD1DC;
     font-weight: bold;
-    max-width: 450px;
-    width: 80%;
+    max-width: 400px;
+    width: 90%;
     box-sizing: border-box;
     display: block;
 }
@@ -80,18 +89,18 @@ input[type=text] {
 
 .modal{
     display: flex;
-    width: 35%;
-    min-width: 500px;
+    width: 80%;
+    min-width: auto;
     min-height: 200px;
     background-color: #ffffff88;
     backdrop-filter: blur(10px);
-    padding: 30px;
+    padding: 20px;
     border-radius: 30px;
     border: 1px solid #9e344d;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 18px;
     box-sizing: border-box;
     position: fixed;
     top: 50%;
@@ -101,8 +110,8 @@ input[type=text] {
 
 .fechar{
     position: absolute;
-    top: -5px;
-    right: -5px;
+    top: 10px;
+    right: 10px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -137,16 +146,24 @@ input[type=text] {
     }
 
     .modal {
-        width: 90%;
+        width: 95%;
         min-width: auto;
-        padding: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .fechar {
+        top: 5px;
+        right: 5px;
         font-size: 18px;
+        width: 25px;
+        height: 25px;
     }
 }
 
 @media (max-width: 480px) {
     .container{
-        width: 98%;
+        width: 90%;
         margin: 15px auto;
     }
 
@@ -155,13 +172,22 @@ input[type=text] {
     }
 
     .modal {
-        font-size: 16px;
-        padding: 15px;
+        width: 98%;
+        padding: 10px;
+        font-size: 14px;
     }
 
     input[type=text],
     .btn {
         width: 98%;
         margin: 10px auto;
+    }
+
+    .fechar {
+        top: 2px;
+        right: 2px;
+        font-size: 16px;
+        width: 20px;
+        height: 20px;
     }
 }
