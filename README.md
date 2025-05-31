@@ -1,6 +1,6 @@
 <h1 align = center> ASK GISELLE</h1>
 
-[![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)]
+[![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)]()
 [![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 
 <h3>Descrição</h3>
