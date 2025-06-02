@@ -6,6 +6,9 @@
 <h3>Descrição</h3>
 Ask Giselle é um projeto interativo desenvolvido para explorar e praticar conceitos de HTML, CSS e JavaScript. O site oferece uma experiência simples e envolvente, permitindo que os usuários façam escolhas entre duas opções, proporcionando uma maneira divertida de tomar decisões.
 
+![image](https://github.com/user-attachments/assets/8092894d-583e-43b0-8f91-5d1053cbb3ba)
+
+
 <h3>Funcionalidades:</h3>
 <ul>
   <li><b>Escolha Interativa:</b> O usuário pode inserir duas opções e o site selecionará aleatoriamente uma delas.</li>
